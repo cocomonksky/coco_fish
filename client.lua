@@ -1,21 +1,5 @@
 Citizen.CreateThread(function() ----Mercy Kill RDR2
     Citizen.InvokeNative(0x39363DFD04E91496, PlayerId(), true) 
-    while true do
-        Wait(2)
-        local player = PlayerPedId()
-        local horse = Citizen.InvokeNative(0x4C8B59171957BCF7, player)
-        if horse ~= nil then
-            local playerCoords = GetEntityCoords(player)
-            local horsecoords = GetEntityCoords(horse)
-            local holding = Citizen.InvokeNative(0xD806CD2A4F2C2996, player)
-            local quality = Citizen.InvokeNative(0x31FEF6A20F00B963, holding)
-            local dist = GetDistanceBetweenCoords(playerCoords.x, playerCoords.y, playerCoords.z, horsecoords.x, horsecoords.y, horsecoords.z, 0)
-            if 2 > dist then
-                local model = GetEntityModel(holding)
-                
-            end
-        end
-    end
 end)
 
 local sideSaddleActive

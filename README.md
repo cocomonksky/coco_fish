@@ -9,3 +9,5 @@ on client there are include 3 feature....
 - One Weapon on shoulder credit for BGS WEAPON LIMIT
 - mercy kill on dying animal Creadit For Outsider VORP HUNT
 - side saddle Credit for Pers side saddle
+
+you can remove the client and just using the server.lua its works fine 

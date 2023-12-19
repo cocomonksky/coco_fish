@@ -6,6 +6,6 @@ Double click on item that you set in config
 
 
 on client there are include 3 feature.... 
-- One Weapon on shoulder
-- mercy kill on dying animal
-- side saddle
+- One Weapon on shoulder credit for BGS WEAPON LIMIT
+- mercy kill on dying animal Creadit For Outsider VORP HUNT
+- side saddle Credit for Pers side saddle
